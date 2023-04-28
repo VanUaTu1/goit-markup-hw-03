@@ -25,6 +25,11 @@ body {
   |============================
 */
 
+.header {
+    display: flex;
+    align-items: center;
+}
+
 .header .link {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -41,6 +46,8 @@ body {
 }
 
 .header .list {
+    gap: 40px;
+    display: flex;
     list-style: none;
 }
 
@@ -183,10 +190,6 @@ body {
     color: var(--color-navy-blue);
 }
 
-.team-section-content {
-    background-color: var(--color-white);
-}
-
 .team-section .subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -262,10 +265,6 @@ body {
 
 .portfolio-content-list .list {
     list-style: none;
-}
-
-.portfolio-content-list .portfolio-content-item {
-    background-color: var(--color-white);
 }
 
 .portfolio-content-list .link {
