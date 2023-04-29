@@ -19,6 +19,10 @@ body {
     background-color: var(--color-white);
 }
 
+img {
+    display: block;
+}
+
 /**
   |============================
   | Header & Footer + Logo
