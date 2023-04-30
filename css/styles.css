@@ -353,7 +353,8 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
     list-style: none;
 }
 
@@ -379,8 +380,7 @@ ul {
 }
 
 .portfolio-content-list .list {
-    column-gap: 24px;
-    row-gap: 48px;
+    gap: 24px;
     margin-bottom: 120px;
     list-style: none;
 }
