@@ -379,7 +379,8 @@ ul {
 }
 
 .portfolio-content-list .list {
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
     margin-bottom: 120px;
     list-style: none;
 }
