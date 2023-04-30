@@ -377,6 +377,8 @@ img {
 .portfolio-content-list .list {
     margin-bottom: 120px;
     list-style: none;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-content-list .link {
