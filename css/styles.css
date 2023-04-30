@@ -349,8 +349,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    row-gap: 48px;
-    column-gap: 24px;
+    gap: 24px;
     list-style: none;
 }
 
@@ -364,12 +363,15 @@ img {
     letter-spacing: 0.04em;
     color: var(--color-iris);
     background-color: var(--color-cloud);
+    border-radius: 4px;
+    border: 1px solid var(--color-cornflower);
 }
 
 .filter-button:hover,
 .filter-button:focus {
     color: var(--color-white);
     background-color: var(--color-ocean);
+    border: 1px solid transparent;
 }
 
 .portfolio-content-list .list {
