@@ -340,6 +340,10 @@ img {
   |============================
 */
 
+.portfolio-section {
+    padding: 96px 0 120px;
+}
+
 .portfolio-section .list {
     margin-bottom: 72px;
     display: flex;
