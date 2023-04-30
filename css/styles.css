@@ -179,10 +179,11 @@ img {
 }
 
 .advantage-list-item {
-    width: 264px;
+    width: calc((100%-72px)/4);
 }
 
 .advantage-list .subtitle {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
