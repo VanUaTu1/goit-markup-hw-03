@@ -354,8 +354,6 @@ ul {
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
-    column-gap: 24px;
-    row-gap: 48px;
     list-style: none;
 }
 
@@ -380,11 +378,10 @@ ul {
     border: 1px solid transparent;
 }
 
-.portfolio-section .portfolio-content-list .list {
+.portfolio-section .portfolio-content-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
     column-gap: 24px;
     row-gap: 48px;
     margin-bottom: 120px;
