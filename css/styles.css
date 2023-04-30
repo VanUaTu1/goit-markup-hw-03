@@ -380,6 +380,7 @@ ul {
 }
 
 .portfolio-content-list .list {
+    gap: 24px;
     margin-bottom: 120px;
     list-style: none;
 }
