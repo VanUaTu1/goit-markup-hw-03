@@ -137,6 +137,8 @@ img {
 }
 
 .hero-button {
+    min-width: 169px;
+    height: 56px;
     display: block;
     margin: 0 auto;
     padding: 16px 32px;
@@ -148,6 +150,8 @@ img {
     letter-spacing: 0.04em;
     background: var(--color-iris);
     color: var(--color-white);
+    border: none;
+    border-radius: 4px;
 }
 
 .hero-button:hover,
