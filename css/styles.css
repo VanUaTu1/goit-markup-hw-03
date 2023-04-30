@@ -349,7 +349,8 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
     list-style: none;
 }
 
@@ -377,8 +378,6 @@ img {
 .portfolio-content-list .list {
     margin-bottom: 120px;
     list-style: none;
-    column-gap: 24px;
-    row-gap: 48px;
 }
 
 .portfolio-content-list .link {
