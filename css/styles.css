@@ -354,6 +354,7 @@ ul {
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
+    row-gap: 48px;
     list-style: none;
 }
 
