@@ -35,9 +35,7 @@ img {
 
 .header-section {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    align-items: flex-end;
 }
 
 .container {
@@ -49,6 +47,10 @@ img {
 .nav-list {
     display: flex;
     align-items: center;
+}
+
+.header .logo {
+    margin-right: 76px;
 }
 
 .header .link {
@@ -73,6 +75,7 @@ img {
 }
 
 .header .list .link {
+    padding: 24px 0;
     font-family: inherit;
     text-transform: none;
     font-weight: 500;
@@ -94,8 +97,6 @@ img {
 }
 
 .address-link .list .link {
-    margin: 0;
-    padding: 0;
     text-transform: none;
     font-weight: 400;
     font-size: 16px;
