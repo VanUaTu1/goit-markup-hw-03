@@ -30,9 +30,19 @@ img {
 */
 
 .header {
-    padding: 24px 156px;
+    border-bottom: 1px solid var(--color-cornflower);
+}
+
+.header-section {
     display: flex;
     align-items: center;
+    align-items: flex-end;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header .link {
@@ -292,7 +302,7 @@ img {
 */
 
 .portfolio-section .list {
-    margin-bottom: 16px;
+    margin-bottom: 72px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
