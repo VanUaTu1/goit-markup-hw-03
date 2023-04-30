@@ -241,7 +241,7 @@ img {
 
 .team-section {
     background-color: var(--color-cloud);
-    padding-bottom: 120px;
+    padding-bottom: 120px 0;
 }
 
 .team-section .list {
