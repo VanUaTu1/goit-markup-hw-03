@@ -27,6 +27,23 @@ ul {
     padding-inline-start: 0;
 }
 
+
+h1 h2 h3 h4 h5 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /**
   |============================
   | Header & Footer + Logo
@@ -42,15 +59,11 @@ ul {
     align-items: center;
 }
 
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 .nav-list {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    margin-right: 332px;
 }
 
 .header .logo {
@@ -127,8 +140,7 @@ ul {
 }
 
 .hero-title {
-    margin: 0 auto;
-    margin-bottom: 18px;
+    margin: 0 auto 48px;
     display: block;
     max-width: 496px;
     font-weight: 700;
@@ -137,7 +149,6 @@ ul {
     text-align: center;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin-bottom: 48px;
 }
 
 .hero-button {
@@ -249,7 +260,6 @@ ul {
 }
 
 .team-section .list {
-    padding: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
@@ -258,8 +268,7 @@ ul {
 }
 
 .team-section .title {
-    margin: 0;
-    padding: 72px;
+    margin: 0 auto 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -275,6 +284,7 @@ ul {
 }
 
 .team-section .subtitle {
+    margin-top: 0;
     margin-bottom: 8px;
     text-align: center;
     font-weight: 500;
@@ -285,7 +295,6 @@ ul {
 }
 
 .team-section-text {
-    margin: 0 0 32px;
     text-align: center;
     font-size: 16px;
     line-height: 1.5;
@@ -300,6 +309,7 @@ ul {
 }
 
 .container-text {
+    margin: 0;
     padding: 32px 16px;
 }
 
@@ -393,7 +403,6 @@ ul {
 }
 
 .portfolio-content-subtitle {
-    margin-left: 16px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -403,7 +412,6 @@ ul {
 }
 
 .portfolio-content-text {
-    margin-left: 16px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
