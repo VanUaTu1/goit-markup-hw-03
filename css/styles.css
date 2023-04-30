@@ -401,3 +401,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--color-slate);
 }
+
+.link-container {
+    padding: 32px 16px;
+}
