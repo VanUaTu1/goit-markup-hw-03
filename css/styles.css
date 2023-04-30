@@ -119,13 +119,14 @@ img {
 
 .hero {
     background-color: var(--color-navy-blue);
-    padding: 188px 472px;
+    padding: 188px 0;
 }
 
 .hero-title {
     margin: 0;
     margin-bottom: 18px;
     display: block;
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     color: var(--color-white);
