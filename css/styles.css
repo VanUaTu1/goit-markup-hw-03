@@ -179,7 +179,7 @@ img {
 }
 
 .advantage-list-item {
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
 }
 
 .advantage-list .subtitle {
@@ -226,6 +226,10 @@ img {
     justify-content: center;
     gap: 24px;
     list-style: none;
+}
+
+.img-section-item {
+    width: calc((100% - 48px) / 3);
 }
 
 /**
