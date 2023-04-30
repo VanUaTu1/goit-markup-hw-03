@@ -23,6 +23,10 @@ img {
     display: block;
 }
 
+ul {
+    padding-inline-start: 0;
+}
+
 /**
   |============================
   | Header & Footer + Logo
