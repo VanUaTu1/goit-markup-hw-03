@@ -307,10 +307,11 @@ img {
 
 .footer {
     background-color: var(--color-navy-blue);
-    padding: 100px 0 100px 156px;
+    padding: 100px 0;
 }
 
 .footer .link {
+    display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -319,6 +320,7 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--color-iris);
+    margin-bottom: 16px;
 }
 
 .footer .logo-studio {
