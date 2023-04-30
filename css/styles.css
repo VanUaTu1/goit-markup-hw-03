@@ -381,7 +381,11 @@ ul {
 }
 
 .portfolio-content-list .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 24px;
+    column-gap: 24px;
     row-gap: 48px;
     margin-bottom: 120px;
     list-style: none;
