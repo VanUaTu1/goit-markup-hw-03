@@ -24,18 +24,25 @@ img {
 }
 
 ul {
-    padding-inline-start: 0;
+    padding-inline: 0;
+    margin-inline: 0;
+    padding: 0;
+    margin: 0;
 }
 
 
 h1 h2 h3 h4 h5 {
-    margin: 0;
+    padding-inline: 0;
+    margin-inline: 0;
     padding: 0;
+    margin: 0;
 }
 
 p {
-    margin: 0;
+    padding-inline: 0;
+    margin-inline: 0;
     padding: 0;
+    margin: 0;
 }
 
 .container {
@@ -57,13 +64,14 @@ p {
 .header-section {
     display: flex;
     align-items: center;
+    margin: 24px auto;
 }
 
 .nav-list {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-right: 332px;
+    margin-right: auto;
 }
 
 .header .logo {
@@ -355,16 +363,16 @@ p {
 */
 
 .portfolio-section {
-    padding: 96px 0 120px;
+    padding-top: 96px;
 }
 
 .portfolio-section .list {
-    margin-bottom: 72px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
     list-style: none;
+    margin-bottom: 72px;
 }
 
 .filter-button {
@@ -394,7 +402,6 @@ p {
     justify-content: center;
     column-gap: 24px;
     row-gap: 48px;
-    margin-bottom: 120px;
     list-style: none;
 }
 
