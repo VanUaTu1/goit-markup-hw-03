@@ -64,7 +64,6 @@ p {
 .header-section {
     display: flex;
     align-items: center;
-    margin: 24px auto;
 }
 
 .nav-list {
@@ -79,6 +78,7 @@ p {
 }
 
 .header .link {
+    padding: 24px 0;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -100,7 +100,6 @@ p {
 }
 
 .header .list .link {
-    padding: 24px 0;
     font-family: inherit;
     text-transform: none;
     font-weight: 500;
@@ -207,6 +206,7 @@ p {
 }
 
 .advantage-list .subtitle {
+    margin-top: 0;
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
@@ -234,6 +234,7 @@ p {
 }
 
 .img-section .title {
+    margin-top: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -363,7 +364,7 @@ p {
 */
 
 .portfolio-section {
-    padding-top: 96px;
+    padding: 96px 0 72px;
 }
 
 .portfolio-section .list {
@@ -403,6 +404,7 @@ p {
     column-gap: 24px;
     row-gap: 48px;
     list-style: none;
+    margin-bottom: 0;
 }
 
 .portfolio-content-list .link {
@@ -410,6 +412,7 @@ p {
 }
 
 .portfolio-content-subtitle {
+    margin-top: 0;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
